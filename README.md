@@ -30,6 +30,7 @@ The frontend is hosted publicly via Netlify, while the backend runs on AWS Lambd
   Public frontend deployment via Netlify
 
 🛠️ Tech Stack
+
 Frontend
 
   HTML, CSS, JavaScript, jQuery, Netlify (hosting)
