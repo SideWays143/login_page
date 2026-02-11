@@ -31,14 +31,16 @@ The frontend is hosted publicly via Netlify, while the backend runs on AWS Lambd
 
 🛠️ Tech Stack
 
-Frontend
+🚪Frontend
 
   HTML, CSS, JavaScript, jQuery, Netlify (hosting)
 
-Backend
+⚙️Backend
 
   AWS Lambda (Node.js), API Gateway, Amazon RDS (MySQL)
 
-Cloud / DevOps
+💭Cloud / DevOps
 
   Serverless architecture, RESTful API design
+
+⚠️⚠️BACKEND FILES NOT UPLOADED HERE FOR SECURITY REASONS⚠️⚠️
