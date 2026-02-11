@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div class="container-fluid" id="main">
+        <br><br><br><br><br>
+        <div class="row" id="rowlogin" style="height: 12cm;">
+            <div class="col-md-6 text-center" id="welcome">
+                <br><br><br>
+                <h1>Welcome Back!</h1>
+                <p>We're glad to see you again. Please log in to access your account and continue where you left off.</p>
+                <p>Don't have an account yet? No worries! Click the <strong>Signup</strong> button below to create one and get started.</p>
+            </div>
+                <div class="col-md-4 text-center" id="div-login">
+                    <br><br><br>
+                    <form id='form-login'>
+                        <br>
+                        <div id="userform" class="d-flex flex-column align-items-center">
+                            <label for="username">Username:</label>
+                            <input type="text" name="username" id="username" class="form-control" style="width:70%;">
+                            <br>
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" class="form-control" style="width:70%;">
+                            <br>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-4">
+                                <input type="button" value="Login" id="btnLogin">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="button" value="Signup" id="btnSignup">
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+                        <br>
+                        <div id='login_message' class=""></div>
+                        <br>
+                    </form>
+                </div>
+
+                <div class="col-md-4 text-center" id="div-signup"  style="display: none;">
+                    <br>
+                    <form id='form-signup'>
+                        <br>
+                        <div id="userform" class="d-flex flex-column align-items-center">
+                            <label for="username">Username:</label>
+                            <input type="text" name="username" id="signusername" class="form-control" style="width:70%;">
+                            <br>
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="signpassword" class="form-control" style="width:70%;">
+                            <br>
+                            <label for="password">Email:</label>
+                            <input type="text" name="email" id="email" class="form-control" style="width:70%;">
+                            <br>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-4">
+                                <input type="button" value="Signup" id="signup">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="button" value="Cancel" id="btnCancel">
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+                        <br>
+                        <div id='signup_message' class=""></div>
+                        <br>
+                    </form>
+                </div>
+
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+</body>
+</html>

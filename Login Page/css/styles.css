@@ -1,0 +1,35 @@
+#userform{
+    color: white;
+}
+#div-login, #div-signup{
+    background-color: #2c2c2c;
+    border-radius: 10px;
+}
+#main{
+    height: 100vh;
+    background-color: #CFCCD6;
+}
+#btnLogin,#signup {
+    background-color: #D5A021; /* Change button background */
+    color: rgb(0, 0, 0); /* Change text color */
+    font-weight: bold;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+#btnSignup, #btnCancel {
+    background-color: #2D728F; /* Change button background */
+    color: rgb(0, 0, 0); /* Change text color */
+    font-weight: bold;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+#welcome{
+    margin: 20px;
+    padding: 10px;
+}
+#login_message, #signup_message{
+    color: rgb(255, 255, 255);
+}
+
