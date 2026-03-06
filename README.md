@@ -6,6 +6,9 @@ A full-stack authentication system built using AWS serverless services and a jQu
 
 The frontend is hosted publicly via Netlify, while the backend runs on AWS Lambda behind API Gateway and connects to a MySQL database on Amazon RDS.
 
+## Live Demo
+https://loginpagesaurav.netlify.app/ 
+
 ## 🚀 Features
 - User signup and login
 - Duplicate username/email detection
